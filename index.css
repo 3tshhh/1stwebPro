@@ -5,7 +5,7 @@
 }
 
 .page{
-    background-color: #eee;
+    background-color: #DDD;
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(9 , 1fr);
@@ -13,7 +13,6 @@
     grid-template-areas:    "logo logo logo logo logo logo logo logo logo"
                             "cont cont cont cont cont cont cont cont cont"
                             "foot foot foot foot foot foot foot foot foot";
-    min-height: 10000px;
 
 }
 
@@ -24,7 +23,9 @@
     grid-area: logo;
     display: grid;
     grid-template-columns: repeat(9 , 1fr);
-    grid-template-areas:    "ll ll na na na na na pp pp"
+    grid-template-areas:    "ll ll na na na na na pp pp";
+    box-shadow: 0px 1px 7px 2px #888888a6
+    
 }
 
 header{
@@ -104,7 +105,29 @@ button:active{
 
 main{
     grid-area: cont;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+main .reg-box{
+    width: 250px;
+    height: 270px;
+    background-color: #29a4d1;
+    box-shadow: 0px 1px 7px 2px #888888a6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-text-box{
+    background-color: white;
+    border-color: #DDD;
+    margin-top: 20px;
+}
+
+
 
 footer{
     grid-area: foot;
