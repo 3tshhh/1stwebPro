@@ -111,23 +111,54 @@ main{
 }
 
 main .reg-box{
-    width: 250px;
-    height: 270px;
+    width: 325px;
+    height: 360px;
     background-color: #29a4d1;
     box-shadow: 0px 1px 7px 2px #888888a6;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pass{
+    margin-left: 3px;
 }
 
 #input-text-box{
     background-color: white;
     border-color: #DDD;
     margin-top: 20px;
+    height: 35px;
+    width: 220px;
 }
 
+#remind-me{
+    width: 10px;
+    height: 10px;
+}
 
+#remind-me,
+#hov:hover{
+    cursor: pointer;
+}
+
+.forgot-my-password-class,
+.remind-me-class{
+    display: inline-block;
+}
+
+.forgot-my-password-class a{
+    font-size: 12.5px;
+    text-decoration: none;
+}
+
+.remind-me-class{
+    font-size: 12.5px;
+}
 
 footer{
     grid-area: foot;
