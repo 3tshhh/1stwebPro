@@ -98,16 +98,11 @@ button{
     border: 2.3px solid transparent;
     /* box-shadow: 3px 3px 10px 0px #888888a6; */
 }
-
 .buttonfour{
-    margin-top: 20px;
     background-color: transparent;
     border: 2.3px solid transparent;
     /* box-shadow: 3px 3px 10px 0px #888888a6; */
-    width: 90px;
-    height: 30px;
 }
-
 button:hover{
     background-color: #68c4dba6;
     border: 2.3px solid #68c4dba6;

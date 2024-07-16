@@ -1,0 +1,36 @@
+main{
+    grid-area: cont;
+}
+.mainmain {
+
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.class-header {
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-left: 50px;
+    display: block;
+}
+
+
+
+.card {
+    display: block;
+    background-color: aqua;
+    width: 280px;
+    height: 280px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.card img {
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 50%;
+    height: auto;
+}
