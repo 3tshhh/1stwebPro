@@ -69,7 +69,13 @@ ul li{
     /* background-color: #349fc5; */
 }
 
-button{
+
+
+.buttonone ,
+.buttontwo , 
+.buttonthree , 
+.buttonfour 
+{
     width: 80px;
     height: 70PX;
     padding: 5px;
@@ -79,30 +85,11 @@ button{
     background-color: transparent;
     border: none;
     /* box-shadow: 3px 3px 10px 0px #888888a6; */
-}
-
-.buttonone{
-    background-color: #2590b6;
-    border: 2.3px solid #2590b6;
+    /* background-color: #2590b6;
+    border: 2.3px solid #2590b6; */
     /* box-shadow: 3px 3px 10px 0px #888888a6; */
 }
 
-.buttontwo{
-    background-color: transparent;
-    border: 2.3px solid transparent;
-    /* box-shadow: 3px 3px 10px 0px #888888a6; */
-}
-
-.buttonthree{
-    background-color: transparent;
-    border: 2.3px solid transparent;
-    /* box-shadow: 3px 3px 10px 0px #888888a6; */
-}
-.buttonfour{
-    background-color: transparent;
-    border: 2.3px solid transparent;
-    /* box-shadow: 3px 3px 10px 0px #888888a6; */
-}
 button:hover{
     background-color: #68c4dba6;
     border: 2.3px solid #68c4dba6;

@@ -1,5 +1,9 @@
+.page {
+    background: linear-gradient(to bottom right, #2196F3, #c4fe7b);
+}
 main{
     grid-area: cont;
+    
 }
 .mainmain {
 
@@ -19,9 +23,10 @@ main{
 
 .card {
     display: block;
-    background-color: aqua;
+    background-color: #86a9a9;
+    border-radius: 20px;
     width: 280px;
-    height: 280px;
+    height: 300px;
     margin-left: 50px;
     margin-top: 20px;
     
@@ -33,4 +38,8 @@ main{
     margin-top: 20px;
     width: 50%;
     height: auto;
+}
+#name {
+    text-align: center;
+    margin-top: 10px;
 }
