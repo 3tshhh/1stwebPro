@@ -59,50 +59,58 @@ ul{
 
 ul li{
     display: inline-block;
-    margin: 20px 0px 0px 10px ;
-    border: 2.3px solid #2595be;
+    margin: 0px 0px 0px 10px ;
+    /* border: 2.3px solid #2595be; */
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-    background-color: #349fc5;
+    /* background-color: #349fc5; */
 }
 
 button{
+    width: 80px;
+    height: 70PX;
     padding: 5px;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     color: white;
     font-weight: bold;
-    box-shadow: 3px 3px 10px 0px #888888a6;
+    background-color: transparent;
+    border: none;
+    /* box-shadow: 3px 3px 10px 0px #888888a6; */
 }
 
 .buttonone{
     background-color: #2590b6;
     border: 2.3px solid #2590b6;
+    /* box-shadow: 3px 3px 10px 0px #888888a6; */
 }
 
 .buttontwo{
-    background-color: #2799c3;
-    border: 2.3px solid #2799c3;
-    box-shadow: 3px 3px 10px 0px #8f8c8ca6;
+    background-color: transparent;
+    border: 2.3px solid transparent;
+    /* box-shadow: 3px 3px 10px 0px #888888a6; */
 }
 
 .buttonthree{
-    background-color: #29a4d1;
-    border: 2.3px solid #29a4d1;
-    box-shadow: 3px 3px 10px 0px #a1a1a1;
+    background-color: transparent;
+    border: 2.3px solid transparent;
+    /* box-shadow: 3px 3px 10px 0px #888888a6; */
 }
+
 .buttonfour{
     margin-top: 20px;
-    background-color: #1694c2;
-    border: 2.3px solid #2fc2f9;
-    box-shadow: 3px 3px 10px 0px #a1a1a1;
+    background-color: transparent;
+    border: 2.3px solid transparent;
+    /* box-shadow: 3px 3px 10px 0px #888888a6; */
     width: 90px;
     height: 30px;
 }
 
 button:hover{
+    background-color: #68c4dba6;
+    border: 2.3px solid #68c4dba6;
     cursor: pointer;
 }
 button:active{
