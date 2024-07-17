@@ -43,3 +43,12 @@ main{
     text-align: center;
     margin-top: 10px;
 }
+#course {
+    margin-top: 4px;
+    margin-left: 9px;
+}
+#contact{
+    margin-top: 4px;
+    align-content:center ;
+    /* margin-right: 9px; */
+}
