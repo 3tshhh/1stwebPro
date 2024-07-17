@@ -26,16 +26,18 @@ main{
 }
 
 main .reg-box{
+    flex-wrap: wrap;
     width: 360px;
-    height: 510px;
+    height: 535px;
     /* background-color: #29a4d1; */
+    border: 2px solid #8580808c;
     box-shadow: 0px 0px 15px 10px #888888a6;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 20px;
 }
 
@@ -47,7 +49,8 @@ main .reg-box{
     border-right: none;
     margin-top: 25px;
     height: 55px;
-    width: 260px;}
+    width: 260px;
+}
 
 #input-text-box:focus{
     outline: none;
@@ -58,6 +61,7 @@ main .reg-box{
     height: 10px;
 }
 
+.login-bottun-class,
 #remind-me,
 #hov:hover{
     cursor: pointer;
@@ -69,13 +73,74 @@ main .reg-box{
 }
 
 .forgot-my-password-class a{
-    margin-left: 55px;
+    margin-left: 66px;
     font-size: 12.5px;
     text-decoration: none;
 }
 
 .remind-me-class{
     font-size: 12.5px;
+}
+
+.login-bottun-class{
+    background-image: linear-gradient(to right, #227e9fbd, #2ec7ffc4);
+    border: none;
+    margin-top: 25px;
+    height: 55px;
+    width: 260px;
+    font-weight: bold;
+    color: white;
+    border-radius: 30px;
+}
+
+
+.form-class{
+    position: relative;
+    top: -70px;
+}
+
+.login-bottun-class:hover{
+    background-image: linear-gradient(to right, transparent , transparent);
+    background-color: transparent;
+    border: 2.3px solid #68c4dba6;
+}
+
+.log-in-options{
+    font-size: 18 px;
+    position: relative;
+    left: 68px;
+    top: -105px;
+}
+
+.social-icons{
+    height: 40px;
+    width: 140px;
+    top: -50px;
+    left: -83px;
+    position: relative;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.google,
+.facebook,
+.apple{
+    border-color:white ;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 40px;
+    background-color: transparent;
+    /*color: white;
+    */-webkit-border-radius: 8px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 2px 2px 10px 3px #888888a6;
+
 }
 
 footer{

@@ -92,6 +92,7 @@ button:hover{
     border: 2.3px solid #68c4dba6;
     cursor: pointer;
 }
+
 button:active{
     background-color: #888888a6;
     border-color: #888888a6;
