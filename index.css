@@ -47,8 +47,8 @@ main .reg-box{
     border-top: none;
     border-left: none;
     border-right: none;
-    margin-top: 25px;
-    height: 55px;
+    margin-top: 5px;
+    height: 50px;
     width: 260px;
 }
 
@@ -96,7 +96,7 @@ main .reg-box{
 
 .form-class{
     position: relative;
-    top: -70px;
+    top: -50px;
 }
 
 .login-bottun-class:hover{
