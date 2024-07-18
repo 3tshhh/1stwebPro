@@ -50,5 +50,10 @@ main{
 #contact{
     margin-top: 4px;
     align-content:center ;
+    background-color: transparent;
+    border: 0;
     /* margin-right: 9px; */
+}
+#contact:hover {
+    border: 1px solid black;
 }
