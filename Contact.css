@@ -1,28 +1,37 @@
 .page {
     background: linear-gradient(to bottom right, #2196F3, #c4fe7b);
 }
-main{
-    grid-area: cont;
-    
-}
-.mainmain {
 
-    display: block;
+main{
+    display: grid;
+    grid-template-columns: calc(100% - 300px) 300px;
+    grid-template-areas: "mmain side";
+    grid-area: cont;
+}
+
+aside{
+    grid-area: side;
+}
+
+.mainmain {
+    grid-area: mmain;
+    flex-wrap: wrap;
+    display: flex;
     width: 100%;
     height: auto;
 }
 
 .class-header {
+    width: 100%;
+    display: block;
     text-decoration: underline;
     margin-top: 40px;
     margin-left: 50px;
-    display: block;
+    
 }
 
-
-
 .card {
-    display: block;
+    display: inline-block;
     background-color: #86a9a9;
     border-radius: 20px;
     width: 280px;
