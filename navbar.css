@@ -87,13 +87,13 @@ ul li{
     /* box-shadow: 3px 3px 10px 0px #888888a6; */
 }
 
-button:hover{
+.buton:hover{
     background-color: #68c4dba6;
     border: 2.3px solid #68c4dba6;
     cursor: pointer;
 }
 
-button:active{
+.buton:active{
     background-color: #888888a6;
     border-color: #888888a6;
 }
